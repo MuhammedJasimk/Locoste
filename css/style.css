@@ -1,0 +1,133 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+
+body{
+    font-family: 'Metropolis', sans-serif !important;
+}
+.nav-first-sec{
+    flex-wrap: initial !important;
+}
+.search-bar-main span{
+    border-radius: 25px 0px 0px 25px !important; 
+    background-color: #f4f4f4;
+}
+.search-bar-main input{
+    border-radius:0px  25px  25px  0px !important; 
+    background-color: #f4f4f4;
+}
+.search-bar-main{
+height: 39px;
+}
+.search_clear{
+    height: 39px;
+    width: 45px;
+    background-color: #f4f4f4;
+    line-height: 37px;
+    cursor: pointer;
+}
+.head_banner{
+    position: absolute;
+    bottom: 10%;
+}
+.head_banner button{
+    padding: 10px 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 27px;
+    background-color: white;
+    color: #292929;
+    fill: #292929;
+}
+.banner-vdo{
+    height: 100vh !important;
+    object-fit: cover ;
+}
+.cards>p{
+font-size: 14px;
+}
+.btn-main-white:hover{
+    background-color: #292929 !important;
+    border-color: #545454 !important;
+    color: white !important;
+}
+.btn-main-black:hover{
+    background-color: white !important;
+    border-color: #e5e5e5 !important;
+    color: #292929 !important;
+}
+.bottom-10{
+    bottom: 10%;
+}
+.smal-icon{
+    width: 50px !important;
+}
+.bg-locost-inside-sec .one{
+    
+    background-color: rgb(196, 209, 223);
+}
+.bg-locost-inside-sec .two{
+background-color: rgb(158, 196, 196);
+}
+.bg-locost-inside-sec .three{
+background-color: rgb(147, 164, 145);
+}
+.owl-nav{
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+.owl-prev span,.owl-next span{
+font-size: 50px;
+color: #fff;
+margin-left: 50px;
+}
+.owl-prev:hover,.owl-next:hover{
+background: none !important;
+}
+.service button{
+    background: transparent ;
+    border: 0;
+}
+footer{
+    background-color: #f4f4f4;
+}
+footer p{
+    font-size: 12px;
+}
+footer li{
+    font-size: 13px;
+    padding: 6px 0;
+    color: #0f0f0f;
+}
+footer li span:hover{
+    border-bottom: 1px solid #1a1919;
+}
+.foot-hd{
+    font-size: 13px;
+    padding: 10px 0 20px 0;
+    color: #5f5f5f;
+    font-weight: 500;
+}
+.dropdown-menu{
+    width: 100vw;
+    margin: 0px !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #292929;
+}
+.icon-xs-screen{
+    width: 80%;
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .icon-lg-screen{
+        display: none;
+    }
+    .icon-xs-screen{
+        display: block;
+    }
+    .logo-container{
+        width: 35%;
+    }
+  }
